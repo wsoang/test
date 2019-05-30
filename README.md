@@ -42,7 +42,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 var a_idx = 0; 
 jQuery(document).ready(function($) { 
     $("body").click(function(e) { 
-        var a = new Array("萌萌", "聪明", "机智", "温柔", "活泼", "可爱", "伶俐", "宇宙", "超级", "无敌", "萌萌哒", "天才", "少女", "小柳柳"); 
+        var a = new Array("萌萌", "聪明", "机智", "温柔", "活泼", "可爱", "伶俐", "宇宙", "超级", "无敌", "萌萌哒", "天才", "少女", "双双"); 
         var $i = $("<span/>").text(a[a_idx]); 
         a_idx = (a_idx + 1) % a.length; 
         var x = e.pageX, 
